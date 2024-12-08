@@ -73,3 +73,7 @@ while True:
         print(f"Laaste km stand registratie: {laatste_km_registratie}")
         print(f"Oordeel KM registratie: {km_oordeel}")
         print("-" * 50)
+        
+    except Exception as e:
+        print(f"Fout in de hoofdloop: {e}")
+
