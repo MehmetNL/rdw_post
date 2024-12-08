@@ -73,4 +73,3 @@ while True:
         print(f"Laaste km stand registratie: {laatste_km_registratie}")
         print(f"Oordeel KM registratie: {km_oordeel}")
         print("-" * 50)
-
