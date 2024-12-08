@@ -74,13 +74,3 @@ while True:
         print(f"Oordeel KM registratie: {km_oordeel}")
         print("-" * 50)
 
-        # Schrijf gegevens naar bestand
-        with open(output_file, "a") as file:
-            file.write(f"Kenteken: {kenteken_v1}\n")
-            file.write(f"Merk auto: {merk}\n")
-            file.write(f"Model auto: {handelsbenaming}\n")
-            file.write(f"Laaste km stand registratie: {laatste_km_registratie}\n")
-            file.write(f"Oordeel KM registratie: {km_oordeel}\n")
-            file.write("-" * 50 + "\n")
-    except Exception as e:
-        print(f"Fout in de hoofdloop: {e}")
