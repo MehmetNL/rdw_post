@@ -19,7 +19,7 @@ def get_rdw_data(kenteken):
 
 auto_1 = get_rdw_data("P300BB")
 
-print(f"Merk auto: {auto_1["merk"]}")
-print(f"Model auto: {auto_1["handelsbenaming"]}")
-print(f"Laaste km stand registratie: {auto_1["jaar_laatste_registratie_tellerstand"]}")
-print(f"Oordel KM registratie: {auto_1["tellerstandoordeel"]}")
+print(f"Merk auto: {auto_1['merk']}")
+print(f"Model auto: {auto_1['handelsbenaming']}")
+print(f"Laaste km stand registratie: {auto_1['jaar_laatste_registratie_tellerstand']}")
+print(f"Oordel KM registratie: {auto_1['tellerstandoordeel']}")
